@@ -85,6 +85,16 @@ extension ViewController: Layoutable {
 }
 ```
 
+## ScreenShot
+|Example|
+|:--:|
+|<img src = "https://user-images.githubusercontent.com/61109660/218523401-cc4b7b9b-9c46-414f-be4c-456a1b8f0b10.png" width = "300" />|
+
+## Contribution
+- If you found a bug, open an issue.
+- If you hava a feature request, open an issue.
+- If you want to contribute, submit a pull request.
+
 ## Installation
 - Using swift package manager
 
