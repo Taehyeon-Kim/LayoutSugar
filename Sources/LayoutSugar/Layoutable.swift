@@ -95,15 +95,24 @@ public extension Layoutable where Self: UIViewController {
                 }
                 
                 // width, height
-                if let width, let height {
+                if let width {
                     $0.width.equalTo(width)
+                }
+                
+                if let height {
                     $0.height.equalTo(height)
                 }
-
+                
                 // center
-                if let centerX, let centerY, let center {
+                if let centerX {
                     $0.centerX.equalTo(centerX.target.snp.centerX)
+                }
+                
+                if let centerY {
                     $0.centerY.equalTo(centerY.target.snp.centerY)
+                }
+                
+                if let center {
                     $0.center.equalTo(center.target)
                 }
             }
